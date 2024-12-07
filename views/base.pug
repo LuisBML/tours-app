@@ -1,0 +1,35 @@
+doctype html
+html 
+    head
+        block head
+            meta(charset='UTF-8')
+            meta(name='viewport' content='width=device-width, initial-scale=1.0')
+            link(rel='stylesheet' href='/css/style.css')
+            link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
+            title Tours | #{title}
+
+    body 
+        // HEADER
+        //- inlcude header.pug view 
+        include header 
+
+        // CONTENT
+        block content
+            h1 Placeholder heading
+
+        // FOOTER
+        include footer 
+
+        //- block myScripts
+        script(src='/js/bundled/index.js') 
+
+        
+//- Interpolation syntax
+        //- title Tours | #{tour}
+
+//- Buffered code: code that adds something to the output
+//- h1= tour
+//- p= user.toUpperCase()
+//- //- Unbuffered code
+//- - const x = 9
+
