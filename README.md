@@ -1,4 +1,4 @@
-# Code along project [Udemy course](https://www.udemy.com/share/101W9C/).
+# Code along project [Udemy course](https://www.udemy.com/share/101Wv6/).
 
 Web application for searching and booking tours, featuring an integrated RESTful API to manage tours, bookings, and user data. The main technologies used were Node.js, Express.js and MongoDB.
 
